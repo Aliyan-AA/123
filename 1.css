@@ -1,0 +1,120 @@
+/* Reset and basic styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Georgia", serif;
+    line-height: 1.6;
+    color: #3e2c2c;
+    background-color: #f8f1e4;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #5d4037;
+    color: #f8f1e4;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+  }
+  
+  nav a {
+    color: #f8f1e4;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #d7ccc8;
+  }
+  
+  /* Responsive Nav for Small Screens */
+  @media (max-width: 768px) {
+    .header-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f8f1e4;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #8d6e63;
+    color: #f8f1e4;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #795548;
+  }
+  
+  /* Rest of the section styles similar to original */
+  

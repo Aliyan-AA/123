@@ -1,0 +1,30 @@
+header {
+    background-color: #5d4037;
+    color: #f8f1e4;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  nav a {
+    color: #f8f1e4;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #d7ccc8;
+  }
+  

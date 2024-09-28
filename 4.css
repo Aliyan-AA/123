@@ -1,0 +1,18 @@
+.featured-books {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .book-card {
+    width: 30%;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .book-title {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  

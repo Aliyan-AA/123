@@ -1,0 +1,24 @@
+.hero {
+    background-image: url("book1.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8f1e4;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .cta-button {
+    background-color: #8d6e63;
+    color: #f8f1e4;
+    padding: 0.8rem 1.5rem;
+  }
+  

@@ -1,0 +1,15 @@
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .submit-button {
+    background-color: #8d6e63;
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+  

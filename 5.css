@@ -1,0 +1,16 @@
+.about {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .about-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .cta-button {
+    background-color: #8d6e63;
+    color: #f8f1e4;
+    padding: 0.8rem 1.5rem;
+  }
+  
